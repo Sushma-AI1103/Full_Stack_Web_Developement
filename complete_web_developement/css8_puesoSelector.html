@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector and more designning</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(228 234 237);
+            padding: 34px;
+            margin: 100px auto;
+            width: 666px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #0e1310;
+        }
+
+        a:hover{
+            color: rgb(109, 80, 99);
+            background-color: wheat;
+        }
+
+        a:visited{
+            background-color: rgb(149, 208, 231);
+        }
+        .btn
+        {
+            border: none;
+            background-color: sandybrown;
+            padding: 7px;
+            border-radius: 14px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+
+        }
+
+        .btn:hover{
+            color: rgb(230, 41, 41);
+            border: 2px solid black;
+            background-color: chocolate;
+        }
+        body{
+            background-image: url(https://picsum.photos/seed/picsum/200/300);
+            /* background-repeat: no-repeat; */
+            background-position: center;
+            background-size: contain;
+            border: 20px solid black;
+            
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 34px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My first website</h1>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas explicabo velit reiciendis quisquam placeat ad illum esse veniam sunt, libero quidem quod doloribus quo reprehenderit dicta, commodi autem cum vel neque sed sit? Consequatur, rem.</p>
+
+        <a href="https://getbootstrap.com/" target="_blank" class="btn">Read more</a>
+        <button class="btn">Contact us</button>  
+    </div>
+
+     
+
+</body>
+</html>
